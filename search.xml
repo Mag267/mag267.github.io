@@ -28,11 +28,11 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
 <p>关于 Archives Page, 文档里只写了 Use Archive Page as Home Page，但其实添加的方式与 Tags&#x2F;Categories Page 一致。</p>
 <h3 id="增加搜索栏"><a href="#增加搜索栏" class="headerlink" title="增加搜索栏"></a>增加搜索栏</h3><p>参见：<a href="https://theme-next.js.org/docs/third-party-services/search-services.html?highlight=search">NexT - Third Party Service- Search Services</a></p>
 <p>就搞了最简单的 Local Search，下载 hexo-generator-searchdb 然后修改下 Hexo 和 NexT 的_config.yml 即可。</p>
-<h3 id="添加-Fancybox"><a href="#添加-Fancybox" class="headerlink" title="添加 Fancybox"></a>添加 Fancybox</h3><p>参见：<a href="https://github.com/theme-next/theme-next-fancybox3">ancyBox 3 for NexT</a></p>
+<h3 id="添加-Fancybox"><a href="#添加-Fancybox" class="headerlink" title="添加 Fancybox"></a>添加 Fancybox</h3><p>参见：<a href="https://github.com/theme-next/theme-next-fancybox3">FancyBox 3 for NexT</a></p>
 <p>一个用于展示图片的插件；可以在使用 Markdown 格式插入图片的情况下实现图片及标题居中。但如果要调整图片大小，还是需要使用 HTML，详见：<a href="https://smanist.github.io/2018/04/22/Images-in-Hexo/">Images in Hexo</a>。</p>
 <h3 id="游客量-x2F-浏览量统计"><a href="#游客量-x2F-浏览量统计" class="headerlink" title="游客量&#x2F;浏览量统计"></a>游客量&#x2F;浏览量统计</h3><p>参见：<a href="https://theme-next.js.org/docs/third-party-services/statistics-and-analytics.html">NexT - Third Party Service- Statistics and Analytics</a></p>
 <p>图方便直接用了主题内置集成的 busuanzi。刚配置的时候 issue 真的很多，比如在网页端 Safari 和手机端 Chrome 上统计结果就能正常显示，但在网页端的 Chrome 就不行；还有统计不准确，每次点击页面访客数和浏览量都会增加；只显示了全站访客和浏览量统计，没有显示单篇浏览量；网上相关文章时间跨度也很长，时效性有限，想 debug 也无从入手。</p>
-<p>不过最后问题还是解决了，但不是我解决的，而是过一阵刷新后它自己好的(……)，所以推测大概或许可能应该是服务提供方的问题。既然能用就暂时得过且过吧，实在不行后续再考虑换 Firebase((</p>
+<p>不过最后问题还是解决了，但不是我解决的，而是过一阵刷新后它自己好的(……)。既然能用就暂时得过且过吧，实在不行后续再考虑换 Firebase((</p>
 <p>到这里个性化配置就差不多了，其实想想还可以再加些功能，比如订阅、评论等等。这些打算之后有时间有心情了再慢慢弄。</p>
 <h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p>搞完主题，终于可以开始动笔写东西啦。创建文章的方法具体见：<a href="https://hexo.io/docs/writing">Hexo-Writing</a> 。这篇教程：<a href="https://knner.wang/2019/11/03/Hexo-ThemeNext-Writing.html">Hexo + Theme Next – 写作</a> 也有很详细的叙述。</p>
 <h3 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h3><p>在这里写博客主要使用 Markdown 文档，需要对 Markdown 语法有一定了解。具体可见：<a href="https://www.markdownguide.org/basic-syntax">Markdown Guide</a>。而关于 Markdown 编辑器，有人推荐 Typora、Sublime Text 3 等。我个人因为平时在用的笔记软件 Obsidian 自带 Markdown 预览功能，就直接拿来当编辑器使用了。</p>
