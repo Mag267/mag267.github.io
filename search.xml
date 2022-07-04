@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World-Hexo + Github Page建站小记</title>
+    <title>Hello World: Hexo + Github Page建站小记</title>
     <url>/2022/07/03/about-this-site/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>说起来也不是第一次建个人网站了，大一上计算机基础时磕磕绊绊用 HTTP + CSS + 一点点点点 JS 建了个关于自己喜欢的游戏的网站，由老师上传到内网服务器供同学互相打分。研究生时则选修了网页设计的课程，最后是用 Wordpress + Digital Ocean(服务器) + Name.com(域名)来搭建的个站。</p>
-<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw1.png" alt="用HTTP+CSS做的网页课作业"></p>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>说起来也不是第一次建个人网站了，大一上计算机基础时磕磕绊绊用 HTML + CSS + 一点点点点 JS 建了个关于自己喜欢的游戏的网站，由老师上传到内网服务器供同学互相打分。研究生时则选修了网页设计的课程，最后是用 Wordpress + Digital Ocean(服务器) + Name.com(域名)来搭建的个站。</p>
+<span id="more"></span>
+
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw1.png" alt="用HTML+CSS做的网页课作业"></p>
 <p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw2.jpg" alt="用Wordpress做的个人网站，模版Zubin Child，换了自己画的人做封面图"></p>
 <p>之前建站主要是为了完成作业以及求职，现在生活稍微稳定下来后，许多想法又逐渐冒了上来，希望能有一个能免受不合理审查制度管控的地方存放和分享。鉴于从头写和用 CMS 建站都已经尝试过了，而且这次对于网页外观也没什么要求，于是决定用 Hexo + Github Page 来建站。</p>
 <p>由于网上关于如何使用 Hexo + Github Page 来建站的文章已经有很多了，于是只在这里简单介绍一下用到的资源教程以及自己踩的坑。</p>
@@ -33,7 +35,7 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
 <p>不过最后问题还是解决了，但不是我解决的，而是过一阵刷新后它自己好的(……)，所以推测大概或许可能应该是服务提供方的问题。既然能用就暂时得过且过吧，实在不行后续再考虑换 Firebase((</p>
 <p>到这里个性化配置就差不多了，其实想想还可以再加些功能，比如订阅、评论等等。这些打算之后有时间有心情了再慢慢弄。</p>
 <h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p>搞完主题，终于可以开始动笔写东西啦。创建文章的方法具体见：<a href="https://hexo.io/docs/writing">Hexo-Writing</a> 。这篇教程：<a href="https://knner.wang/2019/11/03/Hexo-ThemeNext-Writing.html">Hexo + Theme Next – 写作</a> 也有很详细的叙述。</p>
-<h3 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h3><p>在这里写博客主要使用 Markdown 文档，需要对 Markdown 语法有一定了解。具体可见：<a href="https://www.markdownguide.org/basic-syntax">Markdown Guide</a>。而关于 Markdown 编辑器，有人推荐 Typora、Sublime Text 3 等。我个人因为平时在用的笔记软件 Obsidian 自带 Markdown 预览功能，就直接当编辑器来用了。</p>
+<h3 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h3><p>在这里写博客主要使用 Markdown 文档，需要对 Markdown 语法有一定了解。具体可见：<a href="https://www.markdownguide.org/basic-syntax">Markdown Guide</a>。而关于 Markdown 编辑器，有人推荐 Typora、Sublime Text 3 等。我个人因为平时在用的笔记软件 Obsidian 自带 Markdown 预览功能，就直接拿来当编辑器使用了。</p>
 <p>除了 Markdown 语言，Hexo 以及 NexT 还提供许多标签来补足 Markdown 的不足、帮助写作者更快地书写。具体文档见：<a href="https://theme-next.js.org/docs/tag-plugins/">NexT-Tag Plugins</a>，中文版的<a href="https://theme-next.iissnan.com/tag-plugins.html">NexT 文档-内置标签</a>里有更多演示。</p>
 <h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p>添加图片这件事情，说简单简单，说难也难；我的需求主要有：国内国外都可以访问（基本排除 imgur 等国外老牌图床，同时也不太想用国内的服务）、 服务长期相对稳定（排除一些小的图床网站）、能不花钱就不花钱（排除部分云存储服务）。</p>
 <p>最后还是选择使用 Github 来 host 图片。许多人会同时使用 PicGo 辅助图片上传和管理，教程具体见：<a href="https://juejin.cn/post/6844904078468710413">使用 GitHub+PicGo 自建免费图床</a>。以及<a href="https://www.jianshu.com/p/d51258ef5484">Github 做图床</a>；但出于一些个人的顾虑还是选择手动上传了。</p>
@@ -46,23 +48,5 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
       <categories>
         <category>技术相关</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/07/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
