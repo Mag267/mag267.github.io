@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World-Hexo + Github Page建站小记</title>
+    <url>/2022/07/03/about-this-site/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>说起来也不是第一次建个人网站了，大一上计算机基础时磕磕绊绊用 HTTP + CSS + 一点点点点 JS 建了个关于自己喜欢的游戏的网站，由老师上传到内网服务器供同学互相打分。研究生时则选修了网页设计的课程，最后是用 Wordpress + Digital Ocean(服务器) + Name.com(域名)来搭建的个站。</p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw1.png" alt="用HTTP+CSS做的网页课作业"></p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw2.jpg" alt="用Wordpress做的个人网站，模版Zubin Child，换了自己画的人做封面图"></p>
+<p>之前建站主要是为了完成作业以及求职，现在生活稍微稳定下来后，许多想法又逐渐冒了上来，希望能有一个能免受不合理审查制度管控的地方存放和分享。鉴于从头写和用 CMS 建站都已经尝试过了，而且这次对于网页外观也没什么要求，于是决定用 Hexo + Github Page 来建站。</p>
+<p>由于网上关于如何使用 Hexo + Github Page 来建站的文章已经有很多了，于是只在这里简单介绍一下用到的资源教程以及自己踩的坑。</p>
+<h2 id="安装必要工具-创建-Github-仓库"><a href="#安装必要工具-创建-Github-仓库" class="headerlink" title="安装必要工具 + 创建 Github 仓库"></a>安装必要工具 + 创建 Github 仓库</h2><p>在必要的工具方面，我们主要会用到 Git, Node.js 以及 Hexo；然后在 Github 上，我们需要建立一个存放博客文件的仓库。具体步骤主要参考这篇博文：<a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a> 配置好在本地运行即可得到一个配置了默认主题的个站。</p>
+<h2 id="个性化设置"><a href="#个性化设置" class="headerlink" title="个性化设置"></a>个性化设置</h2><p>如果想要更换外观，可以在<a href="https://hexo.io/themes/">Hexo 官网</a>上寻找自己喜欢的主题并根据主题的相关文档进行安装调试。在这里我选择的是<a href="https://theme-next.js.org/">NexT</a>，简洁美观文档齐全，过程具体参考<a href="https://theme-next.js.org/">NexT 官方文档</a>。在这里我做了以下的配置：</p>
+<h3 id="更换-Scheme"><a href="#更换-Scheme" class="headerlink" title="更换 Scheme"></a>更换 Scheme</h3><p>参见：<a href="https://theme-next.js.org/docs/theme-settings/">Next - Theme Settings</a></p>
+<p>第一次在公司的 win 机上摸鱼尝试的时候，按照文档 Hexo Installation 的部分下载了主题，但不知道为什么我下载的包有_config.next.yml 以及_config.yml 两个 config file，且仅修改 Next 下的_config.next.yml 样式不会改变，需要一同修改 Hexo 下的_config.yml。但如果 Hexo 下的_config.yml 中没有对应的选项，如 Avatar、Link Icon 等，就直接抓瞎。</p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw3.JPG" alt="_config.next.yml以及npm下相关package"></p>
+<p>最后也没什么好的解决办法。下班后在自己的 Mac 上重新尝试，按<a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a> 配置好后直接使用 git clone 来下载主题，之后再按照文档对 Next 下的_config.yml 进行修改，就没有再出现以上的问题。不确定到底是自己渣操、还是系统环境有问题、或者主题确实存在 issue。</p>
+<figure>
+    <img src='http://5b0988e595225.cdn.sohucs.com/images/20190912/d8773b876ec246cf9b4dc335922858e0.jpeg'  text-align=center width=300 height=400 />
+    <figcaption 
+text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了，那就不要再动它了.jpg</figcaption>
+</figure>
+
+<h3 id="修改侧边栏"><a href="#修改侧边栏" class="headerlink" title="修改侧边栏"></a>修改侧边栏</h3><p>参见：<a href="https://theme-next.js.org/docs/theme-settings/sidebar.html">NexT - Theme Settings-Sidebar</a><br>主要修改了头像和增加外链和图标。</p>
+<p>博客头像用了和 Github 账号一样的默认头像，查了一下发现每个 Github 的初始头像都是用户 ID 经由哈希算法最后转换为的像素图，具体解释在这里：<a href="https://github.blog/2013-08-14-identicons/">Github Identicons</a>。个人觉得是个很可爱的 Fun fact。</p>
+<h3 id="增加-Categories-x2F-Archives-Page"><a href="#增加-Categories-x2F-Archives-Page" class="headerlink" title="增加 Categories&#x2F;Archives Page"></a>增加 Categories&#x2F;Archives Page</h3><p>参见：<a href="https://theme-next.js.org/docs/theme-settings/custom-pages.html">NexT - Theme Settings- Custom Pages</a></p>
+<p>关于 Archives Page, 文档里只写了 Use Archive Page as Home Page，但其实添加的方式与 Tags&#x2F;Categories Page 一致。</p>
+<h3 id="增加搜索栏"><a href="#增加搜索栏" class="headerlink" title="增加搜索栏"></a>增加搜索栏</h3><p>参见：<a href="https://theme-next.js.org/docs/third-party-services/search-services.html?highlight=search">NexT - Third Party Service- Search Services</a></p>
+<p>就搞了最简单的 Local Search，下载 hexo-generator-searchdb 然后修改下 Hexo 和 NexT 的_config.yml 即可。</p>
+<h3 id="添加-Fancybox"><a href="#添加-Fancybox" class="headerlink" title="添加 Fancybox"></a>添加 Fancybox</h3><p>参见：<a href="https://github.com/theme-next/theme-next-fancybox3">ancyBox 3 for NexT</a></p>
+<p>一个用于展示图片的插件；可以在使用 Markdown 格式插入图片的情况下实现图片及标题居中。但如果要调整图片大小，还是需要使用 HTML，详见：<a href="https://smanist.github.io/2018/04/22/Images-in-Hexo/">Images in Hexo</a>。</p>
+<h3 id="游客量-x2F-浏览量统计"><a href="#游客量-x2F-浏览量统计" class="headerlink" title="游客量&#x2F;浏览量统计"></a>游客量&#x2F;浏览量统计</h3><p>参见：<a href="https://theme-next.js.org/docs/third-party-services/statistics-and-analytics.html">NexT - Third Party Service- Statistics and Analytics</a></p>
+<p>图方便直接用了主题内置集成的 busuanzi。刚配置的时候 issue 真的很多，比如在网页端 Safari 和手机端 Chrome 上统计结果就能正常显示，但在网页端的 Chrome 就不行；还有统计不准确，每次点击页面访客数和浏览量都会增加；只显示了全站访客和浏览量统计，没有显示单篇浏览量；网上相关文章时间跨度也很长，时效性有限，想 debug 也无从入手。</p>
+<p>不过最后问题还是解决了，但不是我解决的，而是过一阵刷新后它自己好的(……)，所以推测大概或许可能应该是服务提供方的问题。既然能用就暂时得过且过吧，实在不行后续再考虑换 Firebase((</p>
+<p>到这里个性化配置就差不多了，其实想想还可以再加些功能，比如订阅、评论等等。这些打算之后有时间有心情了再慢慢弄。</p>
+<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p>搞完主题，终于可以开始动笔写东西啦。创建文章的方法具体见：<a href="https://hexo.io/docs/writing">Hexo-Writing</a> 。这篇教程：<a href="https://knner.wang/2019/11/03/Hexo-ThemeNext-Writing.html">Hexo + Theme Next – 写作</a> 也有很详细的叙述。</p>
+<h3 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h3><p>在这里写博客主要使用 Markdown 文档，需要对 Markdown 语法有一定了解。具体可见：<a href="https://www.markdownguide.org/basic-syntax">Markdown Guide</a>。而关于 Markdown 编辑器，有人推荐 Typora、Sublime Text 3 等。我个人因为平时在用的笔记软件 Obsidian 自带 Markdown 预览功能，就直接当编辑器来用了。</p>
+<p>除了 Markdown 语言，Hexo 以及 NexT 还提供许多标签来补足 Markdown 的不足、帮助写作者更快地书写。具体文档见：<a href="https://theme-next.js.org/docs/tag-plugins/">NexT-Tag Plugins</a>，中文版的<a href="https://theme-next.iissnan.com/tag-plugins.html">NexT 文档-内置标签</a>里有更多演示。</p>
+<h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p>添加图片这件事情，说简单简单，说难也难；我的需求主要有：国内国外都可以访问（基本排除 imgur 等国外老牌图床，同时也不太想用国内的服务）、 服务长期相对稳定（排除一些小的图床网站）、能不花钱就不花钱（排除部分云存储服务）。</p>
+<p>最后还是选择使用 Github 来 host 图片。许多人会同时使用 PicGo 辅助图片上传和管理，教程具体见：<a href="https://juejin.cn/post/6844904078468710413">使用 GitHub+PicGo 自建免费图床</a>。以及<a href="https://www.jianshu.com/p/d51258ef5484">Github 做图床</a>；但出于一些个人的顾虑还是选择手动上传了。</p>
+<p>看到许多教程说用 Github 作为图床不算滥用，但我没有考证这个说法的源头，所以对此表示怀疑。不过初期图片量和流量不大的情况下还是可以先用着，但这个问题或许之后还会出现，到时再说吧。</p>
+<h2 id="推送网站至-Github-仓库"><a href="#推送网站至-Github-仓库" class="headerlink" title="推送网站至 Github 仓库"></a>推送网站至 Github 仓库</h2><p>在本地写完博客后，就可以将本地网站推送到 Github 上了。在网上查了一圈，发现主要的推送方法还是使用 hexo-deployer-git，具体方法依然见：<a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a>。</p>
+<p>不过因为 Github 更新了协议，上述直接使用仓库路径的办法行不通，需要将 deploy 的地址切换成 ssh 协议的，具体可见这个回答：<a href="https://www.zhihu.com/question/43191273/answer/370000462">hexo deploy 失败，如何解决？</a>。</p>
+<p>由本地将站点 deploy 到仓库后，大概等上十多二十分钟后，即可在 username.github.io 上访问到自己的网站（懒得搞域名了）。小站正式上线！</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>在踩坑无数之后，这个小站终于建完了。 希望自己以后能够多多更新，多多产出，也希望这篇小记能够对你有所帮助。我们下一篇文章见！</p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/07/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
