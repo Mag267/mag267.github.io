@@ -8,7 +8,7 @@
 
 <p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw1.png" alt="用HTML+CSS做的网页课作业"></p>
 <p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/helloword_07022022/hw2.jpg" alt="用Wordpress做的个人网站，模版Zubin Child，换了自己画的人做封面图"></p>
-<p>之前建站主要是为了完成作业以及求职，现在生活稍微稳定下来后，许多想法又逐渐冒了上来，希望能有一个能免受不合理审查制度管控的地方存放和分享。鉴于从头写和用 CMS 建站都已经尝试过了，而且这次对于网页外观也没什么要求，于是决定用 Hexo + Github Page 来建站。</p>
+<p>之前建站主要是为了完成作业以及求职，现在生活稍微稳定下来后，许多想法又逐渐冒了出来，希望能有一个能免受不合理审查制度管控的地方来存放和分享。鉴于从头写和用 CMS 建站都已经尝试过了，而且这次对于网页外观也没什么要求，于是决定用 Hexo + Github Page 来建站。</p>
 <p>由于网上关于如何使用 Hexo + Github Page 来建站的文章已经有很多了，于是只在这里简单介绍一下用到的资源教程以及自己踩的坑。</p>
 <h2 id="安装必要工具-创建-Github-仓库"><a href="#安装必要工具-创建-Github-仓库" class="headerlink" title="安装必要工具 + 创建 Github 仓库"></a>安装必要工具 + 创建 Github 仓库</h2><p>在必要的工具方面，我们主要会用到 Git, Node.js 以及 Hexo；然后在 Github 上，我们需要建立一个存放博客文件的仓库。具体步骤主要参考这篇博文：<a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a> 配置好在本地运行即可得到一个配置了默认主题的个站。</p>
 <h2 id="个性化设置"><a href="#个性化设置" class="headerlink" title="个性化设置"></a>个性化设置</h2><p>如果想要更换外观，可以在<a href="https://hexo.io/themes/">Hexo 官网</a>上寻找自己喜欢的主题并根据主题的相关文档进行安装调试。在这里我选择的是<a href="https://theme-next.js.org/">NexT</a>，简洁美观文档齐全，过程具体参考<a href="https://theme-next.js.org/">NexT 官方文档</a>。在这里我做了以下的配置：</p>
@@ -38,8 +38,8 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
 <h3 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h3><p>在这里写博客主要使用 Markdown 文档，需要对 Markdown 语法有一定了解。具体可见：<a href="https://www.markdownguide.org/basic-syntax">Markdown Guide</a>。而关于 Markdown 编辑器，有人推荐 Typora、Sublime Text 3 等。我个人因为平时在用的笔记软件 Obsidian 自带 Markdown 预览功能，就直接拿来当编辑器使用了。</p>
 <p>除了 Markdown 语言，Hexo 以及 NexT 还提供许多标签来补足 Markdown 的不足、帮助写作者更快地书写。具体文档见：<a href="https://theme-next.js.org/docs/tag-plugins/">NexT-Tag Plugins</a>，中文版的<a href="https://theme-next.iissnan.com/tag-plugins.html">NexT 文档-内置标签</a>里有更多演示。</p>
 <h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p>添加图片这件事情，说简单简单，说难也难；我的需求主要有：国内国外都可以访问（基本排除 imgur 等国外老牌图床，同时也不太想用国内的服务）、 服务长期相对稳定（排除一些小的图床网站）、能不花钱就不花钱（排除部分云存储服务）。</p>
-<p>最后还是选择使用 Github 来 host 图片。许多人会同时使用 PicGo 辅助图片上传和管理，教程具体见：<a href="https://juejin.cn/post/6844904078468710413">使用 GitHub+PicGo 自建免费图床</a>。以及<a href="https://www.jianshu.com/p/d51258ef5484">Github 做图床</a>；但出于一些个人的顾虑还是选择手动上传了。</p>
-<p>看到许多教程说用 Github 作为图床不算滥用，但我没有考证这个说法的源头，所以对此表示怀疑。不过初期图片量和流量不大的情况下还是可以先用着，但这个问题或许之后还会出现，到时再说吧。</p>
+<p>最后还是选择使用 Github 来 host 图片。许多人会同时使用 PicGo 辅助图片上传和管理，教程具体见：<a href="https://juejin.cn/post/6844904078468710413">使用 GitHub+PicGo 自建免费图床</a>，以及<a href="https://www.jianshu.com/p/d51258ef5484">Github 做图床</a>；但出于一些个人的顾虑还是选择手动上传了。</p>
+<p>看到许多教程说用 Github 作为图床不算滥用，但我没有考证到这个说法的源头，所以对此表示怀疑。不过初期图片量和流量不大的情况下还是可以先用着，但这个问题或许之后还会出现，到时再说吧。</p>
 <h2 id="推送网站至-Github-仓库"><a href="#推送网站至-Github-仓库" class="headerlink" title="推送网站至 Github 仓库"></a>推送网站至 Github 仓库</h2><p>在本地写完博客后，就可以将本地网站推送到 Github 上了。在网上查了一圈，发现主要的推送方法还是使用 hexo-deployer-git，具体方法依然见：<a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a>。</p>
 <p>不过因为 Github 更新了协议，上述直接使用仓库路径的办法行不通，需要将 deploy 的地址切换成 ssh 协议的，具体可见这个回答：<a href="https://www.zhihu.com/question/43191273/answer/370000462">hexo deploy 失败，如何解决？</a>。</p>
 <p>由本地将站点 deploy 到仓库后，大概等上十多二十分钟后，即可在 username.github.io 上访问到自己的网站（懒得搞域名了）。小站正式上线！</p>
@@ -47,6 +47,32 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
 ]]></content>
       <categories>
         <category>技术相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Krenz透视10期：L8作业心得</title>
+    <url>/2022/07/05/perspective-l8/</url>
+    <content><![CDATA[<p>作品展示：</p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/perspective_l8_07052022/Perspective_L8_A01_4.JPG" alt="终稿"></p>
+<p>原图发表在 Twitter，请移步：<a href="https://twitter.com/MagnoliaWu_267/status/1519131606555918336">这里</a></p>
+<span id="more"></span>
+
+<h2 id="绘画-x2F-思考过程"><a href="#绘画-x2F-思考过程" class="headerlink" title="绘画&#x2F;思考过程"></a>绘画&#x2F;思考过程</h2><h3 id="构思阶段"><a href="#构思阶段" class="headerlink" title="构思阶段"></a>构思阶段</h3><p>其实在正式开始上课之前自己就已经在想 L8 要画什么，在上课的几周中积攒了好几个选题，但都不是很满意。巧合的是在 L8 前刷到了这张场景参考的图片，瞬间觉得正好能够串联起自己的各种喜好和想法，于是初步定下来要画这样一个放满了植物的房间。</p>
+<p>确定了场景，接下来就是人物设定。一开始想画的是植物学家或者植物标本馆的科研人员，但查阅资料之后发现这类人员的工作环境还是与参考场景不太一样，于是还是选择了自己相对熟悉的职业 – 植物插画师(Botanical artist)。</p>
+<h3 id="资料收集阶段"><a href="#资料收集阶段" class="headerlink" title="资料收集阶段"></a>资料收集阶段</h3><p>敲定了场景和人物之后，接下来需要思考的是人与环境会有怎样的互动。虽然参考图中的物件已经非常丰富很想直接照抄，但是我认为一个人的房间也是其日常行为以及性格的体现，应该根据这点对场景进行调整。我一边思考画中人物会在这样的房间做什么，一边查阅相关的资料。除了在图库网站中查找参考，还找到了很多植物园、标本馆、自然博物馆的相关资料，比如<a href="https://www.kew.org/read-and-watch/what-is-botanic-art">邱园</a>对于植物插画的介绍，以及<a href="https://www.botanicalartandartists.com/">相关手册</a>。因为是感兴趣的题材，所以查资料的过程非常开心，也确定了要画的主要物件。</p>
+<h2 id="绘画流程"><a href="#绘画流程" class="headerlink" title="绘画流程"></a>绘画流程</h2><h3 id="草图阶段"><a href="#草图阶段" class="headerlink" title="草图阶段"></a>草图阶段</h3><p>这个阶段主要根据 L8 的过程攻略进行。个人觉得在这个过程中最痛苦的还是三视图和实际效果图之间的调整，作业途中发现两者之间存在着不小的 gap：草图看起来还行的比例移到三视图上就很奇怪，反之亦然。最后还是放弃让三视图和实际图保持完全一致，以实际效果为主，比例只要不偏差得太离谱即可。<br><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/perspective_l8_07052022/Perspective_L8_A01_1.jpg" alt="节点1： 确认透视，场景以及人物草图"></p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/perspective_l8_07052022/Perspective_L8_A01_2.jpg" alt="节点2：根据透视画出主要物件以及人物的结构 -&gt; 调整画架时为了方便直接自由变换挪动位置，结果产生透视错误被助教抓包(("></p>
+<h3 id="细化阶段"><a href="#细化阶段" class="headerlink" title="细化阶段"></a>细化阶段</h3><p>由于场景中的小物件非常的多，为了更好地把握全局以及尽快出效果，我在细化前给物件定了大致的优先级：先画占地面积较大或者较为主要的物件，随后再添加植物和小物件。因此作画顺序大概为：桌子  -&gt;  背后的柜子  -&gt;  人与椅子  -&gt;  窗户  -&gt;  画板  -&gt;  桌上书柜，等等。</p>
+<p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/perspective_l8_07052022/Perspective_L8_A01_3.jpg" alt="节点2：细化中"></p>
+<p>在这个阶段中，对于自己拿不准怎么画的部分，个人觉得做速写研究是很有效的一个方法：在正式画之前，可以多找几张类似物件或者动态的参考进行速写，同时也可以参考其他画手的作品，观察他们是怎样进行归纳概括的；做足准备后再动笔会更加自信。就这样不断调整、添加物件，直至整张图完成。</p>
+<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p><img src="https://raw.githubusercontent.com/Mag267/blog_album/main/perspective_l8_07052022/Perspective_L8_A01_4.JPG" alt="节点3：完成图"></p>
+<p>对于初步完成的全图，助教主要是在物件细节上给出了反馈，比如可以通过增加植物培养箱里的泥土与外轮廓的空隙来体现玻璃的厚度。同时也有同学在纸片、书本以及花瓶的透视等方面给出了修改建议。非常感谢他们的帮助。</p>
+<h2 id="学习体会"><a href="#学习体会" class="headerlink" title="学习体会"></a>学习体会</h2><h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3><p>k 大的透视课是我第一门完整跟下来的、系统的绘画课程。个人觉得能将室内场景、室外场景、物体旋转、人物组件等等诸多内容塞在八堂课内讲完且讲清楚实属不易。另外课堂上教授的许多绘画方法，像是钢笔君、贴图法、十六方块等，非常实用；以及后续练习方向的指导也让人受益匪浅。</p>
+<h3 id="还想提高的地方"><a href="#还想提高的地方" class="headerlink" title="还想提高的地方"></a>还想提高的地方</h3><p>上完透视课后，个人觉得自己最大的进步还是能够相对严谨地使用测量的方式确认透视、构建场景。目前作画还是很依赖钢笔君，且存在 k 大说的“上完课后又回到老路子”的趋势。接下来还是需要按照 L8 的方法思路多多练习，同时也需要不断复习、补充透视知识。</p>
+<h3 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h3><p>上 k 大的课之前，自己属于非常随性画画的那一类。此前忙于课业一直没有太多的闲暇，直到工作后生活相对稳定才有机会认真地发展自己的兴趣。除了绘画之外，我还有很多其他的爱好。我喜欢打球、喜欢登山、喜欢植物动物、喜欢天文地理、喜欢有关自然科学的一切。这些经历与爱好不断累积，最终厚积薄发成为我绘画表达的一部分；而绘画也反过来不断激励我探索生活、世界、以及自己的内心。非常高兴能在 k 大的课堂上收获系统性的绘画知识，得到作品的反馈和指正，以及结识到志同道合的伙伴们。希望自己能够保持这样的状态继续前进。我们下一张画再见！</p>
+]]></content>
+      <categories>
+        <category>绘画相关</category>
       </categories>
   </entry>
 </search>
