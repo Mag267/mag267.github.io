@@ -701,4 +701,35 @@ text-align: center> 如果你的代码以某种莫名其妙的方式跑起来了
         <category>绘画相关</category>
       </categories>
   </entry>
+  <entry>
+    <title>近期关于本博客的一些更新与想法</title>
+    <url>/2024/01/07/update-jan24/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>不是关博通知。</p>
+<span id="more"></span>
+
+<h2 id="功能方面的更新"><a href="#功能方面的更新" class="headerlink" title="功能方面的更新"></a>功能方面的更新</h2><h3 id="浏览与访客数的统计"><a href="#浏览与访客数的统计" class="headerlink" title="浏览与访客数的统计"></a>浏览与访客数的统计</h3><p>在写上一篇及上上篇博客的时候就注意到浏览及访客统计数消失了。本来以为又是浏览器抽风，结果去查了下不蒜子的官网，喜提 502 Bad Gateway。果然是 Nothing lasts forever. 在等待不蒜子恢复服务的期间，想着浏览和访客数对我来说还是必要的、最低限度的反馈，于是就还是做好两手准备给这个博客加上其他第三方的统计功能。</p>
+<p>这次选择的服务是 Google Analytic。虽然上学的时候就有用过，但过了两年感觉花里胡哨的东西变多了。Next 的文档和代码也都没跟上 GA 的更新。最后还是根据<a href="https://augustdoit.men/GA4-Hexo-Next/">教程：Google Analytics 4（GA4 ）之 Hexo Next</a> 手动改了 template 代码才得以配置成功。</p>
+<p>安好 Google Analytic 后，查了下发现它的 Data Retention 最多只有 26 个月。虽然我这个博客建站都还没有 26 个月，但人不能只考虑眼前，所以还是决定添加一个 Firebase 来存储计数。这次主要是根据<a href="https://weirenxue.github.io/2021/06/11/hexo_next_firestore_visitors/">这篇博客教程</a>。不过配到一半的时候发现不蒜子恢复服务了。虽然很想两个同时 enable，但这样的话网页上会显示两个计数图标。就还是先暂时搁置了，等如果不蒜子又 down 了再说吧（捐了点钱还是希望这个服务能维护下去）。</p>
+<h3 id="RSS-订阅"><a href="#RSS-订阅" class="headerlink" title="RSS 订阅"></a>RSS 订阅</h3><p>主要参考 <a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed 官方文档</a>以及 <a href="https://tanwucheng.github.io/2021/03/03/4.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/">HEXO 笔记 ④-Hexo 博客 NexT 主题设置 RSS 订阅</a>。其实以博客现在的流量和定位似乎没什么必要加订阅功能，不过秉持着“来都来了”的心态，还是把该加的功能都一起更新了吧。</p>
+<h2 id="未来内容更新的想法"><a href="#未来内容更新的想法" class="headerlink" title="未来内容更新的想法"></a>未来内容更新的想法</h2><p>做出以上改变，除了功能出现问题外，其实也受了<a href="https://github.com/timqian/chinese-independent-blogs">GitHub - timqian&#x2F;chinese-independent-blogs: 中文独立博客列表</a> 的影响。看到了很多优秀的中文独立博客，非常受激励。不过不知道是不是捣鼓博客和程序员这个职业在技能上有高度的重合，列表里 99%的博客都打上了“编程”的标签。少数几个有“绘画”标签的博客里面也没有什么绘画的内容。既然如此，那就由我这个小破站来填补这块空白吧。</p>
+<p>在列表里我浏览过的博客中，我目前印象最深的是<a href="catcoding.me">程序员的喵</a>，里面几篇关于写作的博客给我了很大的触动。这篇<a href="https://catcoding.me/p/share-3-articles/">《深刻启发我的 3 篇文章》</a>写道：</p>
+<blockquote>
+<p>我之前写了 10 来年的博客，但我基本是当作自己的一个私人记录在写，我甚至不希望身边的朋友、同事发现我写的东西，因为我会觉得不舒服，后来我才知道这其实类似冒名顶替综合症。我的域名也丢了两次，所以最终导致我写的东西除了自己看没有什么很多人看过。</p>
+</blockquote>
+<blockquote>
+<p>这会有什么问题？</p>
+</blockquote>
+<blockquote>
+<p>其实也没什么大问题，只是我丧失了很多提高自己的机会。</p>
+</blockquote>
+<blockquote>
+<p>写出来的东西并没有其他人看，就相当于我只是在消费，实际并没有产出。因为没有得到太多的反馈、激励，即使我写了 10 年，这也是断断续续写的，兴致来了写上一篇，通常每年十篇左右，这样没有形成写作的习惯，而且我丧失了启发他人，以及从他人学习的机会。</p>
+</blockquote>
+<p>我觉得这段话正好切中了我目前写博客的状态。我当初建立博客的目的，一是我现在处在一个全英文的环境中，在这里用母语写作对我来说有很重要的意义。另一方面是自己画画的过程中会产生非常多的情绪，就像是药品的 by-product、数据的 metadata；而博客就是它们循环再利用的最好去处。基本上没有思考过这个博客可能对其他人产生的意义，这也造就了我的博客大部分内容都是流水账的现状。</p>
+<p>虽然有了改变现状的想法，但可以预见实施起来有一定的难度。最大的困难还是时间不够，目前还是想把有限的精力集中在画画上。想到的解决方案有：把月度总结改为季度总结，然后平常把画图的过程按主题进行归纳。但是月度总结对我来说也很重要，毕竟是一个连贯的记录。如果在这个基础上继续写的话又担心负担有点重。总之没有找到一个平衡点，归根结底还是没有想好自己到底希望这个博客以后变成什么样。这种时候多说无益，还是边画边写边想吧。</p>
+]]></content>
+      <categories>
+        <category>技术相关, 随想杂谈</category>
+      </categories>
+  </entry>
 </search>
