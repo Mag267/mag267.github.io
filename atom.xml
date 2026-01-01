@@ -6,7 +6,7 @@
   <link href="https://mag267.github.io/atom.xml" rel="self"/>
   
   <link href="https://mag267.github.io/"/>
-  <updated>2025-03-01T03:40:02.962Z</updated>
+  <updated>2026-01-01T05:13:26.436Z</updated>
   <id>https://mag267.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>笔记：2025年咬人画的-美术小课堂总结</title>
+    <link href="https://mag267.github.io/2025/12/31/summary-yaoren-2025/"/>
+    <id>https://mag267.github.io/2025/12/31/summary-yaoren-2025/</id>
+    <published>2026-01-01T03:46:57.000Z</published>
+    <updated>2026-01-01T05:13:26.436Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;如题，这篇笔记主要记录了咬人画的直播间里有关美术方面的讨论。咬人一直是我很喜欢的一位漫画家，从高中时就开始看他的漫画。非常高兴今年能看到他在Bilibili上开播，并且分享了不少美术知识。收获颇丰，故在此进行记录。&lt;br&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-fe240ffb59590c58534eeb6997e76ebc_1440w.jpg&quot; alt=&quot;借用下咬大的封面&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;借用下咬大的封面&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2月练习小结</title>
@@ -388,26 +405,6 @@
     <category term="技术相关" scheme="https://mag267.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     <category term="随想杂谈" scheme="https://mag267.github.io/categories/%E9%9A%8F%E6%83%B3%E6%9D%82%E8%B0%88/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2023年度绘画小结</title>
-    <link href="https://mag267.github.io/2024/01/01/summary-2023/"/>
-    <id>https://mag267.github.io/2024/01/01/summary-2023/</id>
-    <published>2024-01-02T01:12:48.000Z</published>
-    <updated>2025-03-01T03:31:19.693Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;到了新的一年才开始写上一年的年终总结这也算是本博的传统艺能了(( 感觉 2023 对我来说是现实中发生了许多事的一年，反映到绘画上就是时躺时卷状态波动很大，很难只用一个词形容这一年。不过敲下这篇总结的时候心态还是要比 2022 年好上不少，也算是成长了吧。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mag267/blog_album/main/summary_2023/summary_2023_all.jpg&quot; alt=&quot;用草稿硬凑的年终总结&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;用草稿硬凑的年终总结&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="年度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E5%B9%B4%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
     
     
   </entry>
