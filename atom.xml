@@ -6,7 +6,7 @@
   <link href="https://mag267.github.io/atom.xml" rel="self"/>
   
   <link href="https://mag267.github.io/"/>
-  <updated>2026-01-01T05:13:26.436Z</updated>
+  <updated>2026-01-02T03:08:38.089Z</updated>
   <id>https://mag267.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025年度绘画小结</title>
+    <link href="https://mag267.github.io/2026/01/01/summary-2025/"/>
+    <id>https://mag267.github.io/2026/01/01/summary-2025/</id>
+    <published>2026-01-02T02:24:52.000Z</published>
+    <updated>2026-01-02T03:08:38.089Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;看似什么都没画然而实际上又画了很多的一年。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mag267/blog_album/refs/heads/main/summary_2025/summary_2025_digital.jpg&quot; alt=&quot;不完全总结图&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;不完全总结图&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="年度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E5%B9%B4%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2025年画材使用记录</title>
+    <link href="https://mag267.github.io/2026/01/01/summary-material-2025/"/>
+    <id>https://mag267.github.io/2026/01/01/summary-material-2025/</id>
+    <published>2026-01-02T02:24:43.000Z</published>
+    <updated>2026-01-02T03:17:43.265Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;与往年不同，今年算是正式入了水彩的坑，开启了探索手绘材料的旅途。虽然每次看画材测评都总觉得逃不开某种消费主义的味儿，但本着学习记录的目的，还是写下了这篇小结。Disclaimer: 没有进行比较严谨的测试，纯主观感受记录，请根据自身需求理性消费。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>笔记：2025年咬人画的-美术小课堂总结</title>
@@ -366,45 +403,6 @@
     <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
     
     <category term="笔记心得" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E5%BF%83%E5%BE%97/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1月练习小结</title>
-    <link href="https://mag267.github.io/2024/01/31/summary-jan24/"/>
-    <id>https://mag267.github.io/2024/01/31/summary-jan24/</id>
-    <published>2024-02-01T06:40:51.000Z</published>
-    <updated>2025-03-01T03:32:24.907Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;放慢了步伐但仍在前进的一个月，好想放假啊。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mag267/blog_album/main/summary_01312024/summary_jan24_overview.jpg&quot; alt=&quot;总结图&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;总结图&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="月度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E6%9C%88%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>近期关于本博客的一些更新与想法</title>
-    <link href="https://mag267.github.io/2024/01/07/update-jan24/"/>
-    <id>https://mag267.github.io/2024/01/07/update-jan24/</id>
-    <published>2024-01-07T20:07:22.000Z</published>
-    <updated>2024-11-09T03:53:02.717Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;不是关博通知。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术相关" scheme="https://mag267.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="随想杂谈" scheme="https://mag267.github.io/categories/%E9%9A%8F%E6%83%B3%E6%9D%82%E8%B0%88/"/>
     
     
   </entry>
