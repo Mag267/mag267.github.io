@@ -6,7 +6,7 @@
   <link href="https://mag267.github.io/atom.xml" rel="self"/>
   
   <link href="https://mag267.github.io/"/>
-  <updated>2026-01-02T03:08:38.089Z</updated>
+  <updated>2026-01-15T02:58:21.897Z</updated>
   <id>https://mag267.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>七进七出某画师平台过审小记</title>
+    <link href="https://mag267.github.io/2026/01/14/platform-review-process/"/>
+    <id>https://mag267.github.io/2026/01/14/platform-review-process/</id>
+    <published>2026-01-15T02:42:21.000Z</published>
+    <updated>2026-01-15T02:58:21.897Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;如题，这篇文章主要是记录年初自己过审某画师平台的过程。虽然网上大概有蛮多所谓攻略之类的资料，但是我所搜索过程中查到的有详细时间线和审核图的资料似乎不太多，就简单做个小结，填补下空白水水博客。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2025年度绘画小结</title>
@@ -384,25 +401,6 @@
     <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
     
     <category term="月度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E6%9C%88%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>笔记：How To Nail Composition with Bill Perkins</title>
-    <link href="https://mag267.github.io/2024/02/24/how-to-nail-composition/"/>
-    <id>https://mag267.github.io/2024/02/24/how-to-nail-composition/</id>
-    <published>2024-02-24T18:45:02.000Z</published>
-    <updated>2025-03-01T03:38:21.197Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;如题，这篇博客的主要内容是 How To Nail Composition with Bill Perkins 的课程笔记。这门课是平台 New Masters Academy 放出来的免费公开课，完整的课程是 Composition for the Visual Artist。虽然公开课被平台剪辑得比较零散，但还是包含了很多重要的概念介绍。有机会会接着上他的构成课。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="笔记心得" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E5%BF%83%E5%BE%97/"/>
     
     
   </entry>
