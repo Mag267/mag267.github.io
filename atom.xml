@@ -6,7 +6,7 @@
   <link href="https://mag267.github.io/atom.xml" rel="self"/>
   
   <link href="https://mag267.github.io/"/>
-  <updated>2026-03-01T21:25:31.147Z</updated>
+  <updated>2026-04-01T02:58:23.935Z</updated>
   <id>https://mag267.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3月练习小结</title>
+    <link href="https://mag267.github.io/2026/03/31/summary-mar26/"/>
+    <id>https://mag267.github.io/2026/03/31/summary-mar26/</id>
+    <published>2026-04-01T02:16:24.000Z</published>
+    <updated>2026-04-01T02:58:23.935Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在现实一堆杂七杂八的事情中缓慢找回节奏，但还是有些心不在焉的一个月。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mag267/blog_album/refs/heads/main/summary_03312026/summary_mar26_2.jpg&quot; alt=&quot;Part of Overview&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;Part of Overview&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="月度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E6%9C%88%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2月练习小结</title>
@@ -379,26 +399,6 @@
     <category term="随想杂谈" scheme="https://mag267.github.io/categories/%E9%9A%8F%E6%83%B3%E6%9D%82%E8%B0%88/"/>
     
     <category term="笔记心得" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E5%BF%83%E5%BE%97/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>4月练习小结</title>
-    <link href="https://mag267.github.io/2024/04/30/summary-apr24/"/>
-    <id>https://mag267.github.io/2024/04/30/summary-apr24/</id>
-    <published>2024-05-01T04:18:56.000Z</published>
-    <updated>2025-03-01T03:31:33.749Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;意料之外因为画画而与许多人和事产生了联系的一个月。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mag267/blog_album/main/summary_04302024/summary_apr_24_overview.jpg&quot; alt=&quot;Overview&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;Overview&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="绘画相关" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="月度小结" scheme="https://mag267.github.io/categories/%E7%BB%98%E7%94%BB%E7%9B%B8%E5%85%B3/%E6%9C%88%E5%BA%A6%E5%B0%8F%E7%BB%93/"/>
     
     
   </entry>
